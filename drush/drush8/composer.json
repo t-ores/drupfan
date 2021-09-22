@@ -1,0 +1,16 @@
+{
+  "name": "dropsolid/rocketship-drush8",
+  "type": "project",
+  "require": {
+    "drush/drush": "^8.3",
+    "twig/twig": "^2.12"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "cd vendor && find . -name \".git\" -type d -prune -exec rm -r \"{}\" \\; && cd .."
+    ],
+    "post-update-cmd": [
+      "cd vendor && find . -name \".git\" -type d -prune -exec rm -r \"{}\" \\; && cd .."
+    ]
+  }
+}
