@@ -1,0 +1,12 @@
+uuid: a228d21f-fe61-4005-8ca4-d5d368b4bf2d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vLHBwpcHIijNrmtePG1EtnlGFm8ZWqN-rP8QLpVncxA
+id: p_003
+label: 'P003 Text Main'
+icon_uuid: b7f0c1e3-6c2a-4acb-a7e1-5a2b99190afa
+icon_default: null
+description: 'Add a block of text with title and teaser.'
+behavior_plugins: {  }

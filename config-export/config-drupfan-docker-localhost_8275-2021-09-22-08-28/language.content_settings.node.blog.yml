@@ -1,0 +1,20 @@
+uuid: 0d106828-de91-4820-a5ef-6f022e2fb9e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 6r81KrpmqHzQiMahn3Ewh5nJgpkEf6uuQOOkpYL550M
+id: node.blog
+target_entity_type_id: node
+target_bundle: blog
+default_langcode: current_interface
+language_alterable: false

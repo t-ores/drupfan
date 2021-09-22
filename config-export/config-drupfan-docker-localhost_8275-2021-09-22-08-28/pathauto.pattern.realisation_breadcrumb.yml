@@ -1,0 +1,24 @@
+uuid: c8312ba3-f989-4732-a964-2eb7c46eafef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ZVkCDTb0cPVJ6VuRvMyAgeJdTjl5tloKaog7UVSQNFE
+id: realisation_breadcrumb
+label: 'Realisations breadcrumb'
+type: 'canonical_entities:node'
+pattern: 'realisations/[node:title]'
+selection_criteria:
+  0f61ace9-cd73-4ddd-b8f3-b50c8e40976g:
+    id: node_type
+    bundles:
+      realisation: realisation
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0f61ace9-cd73-4ddd-b8f3-b50c8e40976g
+selection_logic: and
+weight: -5
+relationships: {  }

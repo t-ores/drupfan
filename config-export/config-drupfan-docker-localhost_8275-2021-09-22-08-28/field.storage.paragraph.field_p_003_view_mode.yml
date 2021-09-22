@@ -1,0 +1,29 @@
+uuid: dcd50814-1d58-4e7d-99f7-ae2720a4b456
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: _JS-MvIcfX_B1QPg_T-Kry1gCCXLzCqKswR8yTG19so
+id: paragraph.field_p_003_view_mode
+field_name: field_p_003_view_mode
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: 'Text left'
+    -
+      value: centered
+      label: 'Text centered'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

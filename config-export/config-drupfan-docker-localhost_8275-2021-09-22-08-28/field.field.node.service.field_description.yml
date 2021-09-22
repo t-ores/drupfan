@@ -1,0 +1,21 @@
+uuid: 650cb858-4c56-4173-8354-3abc1abd8729
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.service
+_core:
+  default_config_hash: TSLSB8E3YTW0uvX4NviHxkhz1Wl8kbb-WSci4sMsoTY
+id: node.service.field_description
+field_name: field_description
+entity_type: node
+bundle: service
+label: 'Page description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

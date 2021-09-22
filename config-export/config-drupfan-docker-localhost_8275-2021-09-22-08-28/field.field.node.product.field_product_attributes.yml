@@ -1,0 +1,23 @@
+uuid: c89eace8-15b8-4789-aeb4-04d4e151db43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_attributes
+    - node.type.product
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: _C388I0XaioxY9fVvdNN6m3NKPk8ij9YUW1oR0k0FsQ
+id: node.product.field_product_attributes
+field_name: field_product_attributes
+entity_type: node
+bundle: product
+label: 'Product attributes'
+description: "You can add a maximum of 5 extra attributes (eg. dimensions, weight, …) to give more information about your product.\r\nThese are displayed with the product description by default.\r\nYou can also choose to have one or more of these items visible on the teaser.\r\nThese are NOT used to filter the products overview."
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: label_value_field

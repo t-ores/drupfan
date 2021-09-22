@@ -1,0 +1,18 @@
+uuid: c5164837-c985-4eac-9d39-b1ccf948b757
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4A0FX-huHeZklkJLyB7FVEtQKyqFWcAThKlelCnjMZQ
+name: header_image_2x
+label: 'Header image (1920x600) 2x'
+effects:
+  d9f331b0-08d5-483c-859c-fb5cab452a56:
+    uuid: d9f331b0-08d5-483c-859c-fb5cab452a56
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 3840
+      height: 1200
+      anchor: center-center
+pipeline: __default__

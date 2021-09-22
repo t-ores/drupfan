@@ -1,0 +1,18 @@
+uuid: cd43374f-b274-4e3e-bd68-1fa2ba99c7d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: ZE-RRgj1-t_FZy2gjKfls4IIh3M-AIUrLrqgKa1_orI
+id: block_content.content
+target_entity_type_id: block_content
+target_bundle: content
+default_langcode: current_interface
+language_alterable: false

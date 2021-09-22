@@ -1,0 +1,12 @@
+uuid: 98af6da3-116d-4e4d-92bc-8d34fba490cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: CEpdWyEtL2WWflLOKfiGKxdkuB4XWsKuQSJLJfcs5qc
+id: node.office_promoted
+label: 'Contact Office promoted'
+targetEntityType: node
+cache: true

@@ -1,0 +1,12 @@
+uuid: cc332562-ea0f-4b5a-9107-d59675880d22
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _Qjh-5TYm-d4yuuAulOeVqjrXGZ3-vSMTHR703R_3T0
+id: rocketship_cookie_policy
+label: 'Rocketship Cookie Policy'
+description: 'Contains Cookie Policy page'
+source_type: ''
+module: null
+shared_configuration: null

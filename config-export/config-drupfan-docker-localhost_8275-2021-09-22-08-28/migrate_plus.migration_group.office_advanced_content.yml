@@ -1,0 +1,12 @@
+uuid: b1a9aacc-fe3b-4823-bd41-6ba6b47cabee
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2M1PSxlzGxkn9TFyg23KvwH7RliEJPbAN0pa65G3dvw
+id: office_advanced_content
+label: 'Office Advanced Content'
+description: 'Contains default contact page'
+source_type: ''
+module: null
+shared_configuration: null

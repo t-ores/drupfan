@@ -1,0 +1,12 @@
+uuid: 0fd396e7-0dcd-43fa-a2f1-c13d271223ac
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JCuSJMhfhERtVmdFYrrL_ZONMfTVB2RDEPr13vnTj_w
+id: dbc_content
+label: 'Blog Core Content'
+description: 'Migrates core blog content'
+source_type: ''
+module: null
+shared_configuration: null

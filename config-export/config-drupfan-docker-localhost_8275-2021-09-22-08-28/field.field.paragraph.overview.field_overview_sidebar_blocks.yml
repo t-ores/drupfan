@@ -1,0 +1,25 @@
+uuid: 4e7ed290-2095-46ea-95b6-346165485f2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_overview_sidebar_blocks
+    - paragraphs.paragraphs_type.overview
+  module:
+    - block_field
+_core:
+  default_config_hash: nidoG19IwGUW4U6ay5uKoy9hlqIMm0XHldyyDXmVW0c
+id: paragraph.overview.field_overview_sidebar_blocks
+field_name: field_overview_sidebar_blocks
+entity_type: paragraph
+bundle: overview
+label: 'Sidebar blocks'
+description: 'Select the blocks that have to be visible next to the Overview'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings: {  }
+field_type: block_field

@@ -1,0 +1,23 @@
+uuid: 0f496701-f2f8-4326-bcd0-2024de6ac5cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_n_display_field
+    - node.type.event
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: 8dFC5hdTaHLN7Yh9SSVxIsX5yF5h6oGOSvFKCeM725Q
+id: node.event.field_event_n_display_field
+field_name: field_event_n_display_field
+entity_type: node
+bundle: event
+label: 'Display Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

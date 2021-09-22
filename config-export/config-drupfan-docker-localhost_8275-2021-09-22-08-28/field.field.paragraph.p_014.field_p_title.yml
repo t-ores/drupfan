@@ -1,0 +1,21 @@
+uuid: 2d370440-a06d-4831-b073-1c08fb25f5bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_title
+    - paragraphs.paragraphs_type.p_014
+_core:
+  default_config_hash: 5ZxkHJykV9EYkO0gYUeCQYW_9PNNqab0og_Abp_2OcE
+id: paragraph.p_014.field_p_title
+field_name: field_p_title
+entity_type: paragraph
+bundle: p_014
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

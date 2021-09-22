@@ -1,0 +1,12 @@
+uuid: 51afabab-edf5-4a6f-81f0-574454a6552c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R4a41MnfJauLlzRVeqJmK85V1l6ZnD2AibMvZpXDTJA
+id: p_001
+label: 'P001 Story'
+icon_uuid: 873d0eed-987e-4b9b-8a3a-651edf3c1b6f
+icon_default: null
+description: 'Add a block of text paired with a visual (or video) to the left or right'
+behavior_plugins: {  }

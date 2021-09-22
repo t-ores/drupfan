@@ -1,0 +1,12 @@
+uuid: c5797600-147f-45fe-be38-6dd66e6cea02
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: zFH2P8g-hhIJIHzelhoTBHEljhl2jHmALLwjL8I8IaU
+id: node.related_paragraph
+label: 'Related Paragraph'
+targetEntityType: node
+cache: true

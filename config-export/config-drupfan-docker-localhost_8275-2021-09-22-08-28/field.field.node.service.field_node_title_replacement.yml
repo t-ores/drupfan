@@ -1,0 +1,27 @@
+uuid: ad29dd10-1530-46ab-be35-0fa7ed3f7068
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_title_replacement
+    - node.type.service
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: 6KxkRZr994xFpU7LJNgY_rJjZI5U3v26WC0jgDTO1ZI
+id: node.service.field_node_title_replacement
+field_name: field_node_title_replacement
+entity_type: node
+bundle: service
+label: 'Replacement title'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    replace: 0
+    value: ''
+    wrapper: h1
+default_value_callback: ''
+settings: {  }
+field_type: paragraph_title_replacement

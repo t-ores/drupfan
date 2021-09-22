@@ -1,0 +1,23 @@
+uuid: 61da2813-ec11-4387-8ce2-b50f7c497326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_teaser_title
+    - node.type.office
+_core:
+  default_config_hash: cN-Nw5wYj8Vr2-bdKO380pES6rSz_6erWJ4oWVe3Pc0
+id: node.office.field_office_teaser_title
+field_name: field_office_teaser_title
+entity_type: node
+bundle: office
+label: 'Teaser title'
+description: 'A short title shown just above the Teaser text on the detail page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 'Contact us'
+default_value_callback: ''
+settings: {  }
+field_type: string

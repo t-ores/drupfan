@@ -1,0 +1,40 @@
+uuid: b4b1d63f-40fe-4383-a240-2bba673ff9b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_geolocation
+    - node.type.office
+  module:
+    - geocoder_field
+    - geofield
+third_party_settings:
+  geocoder_field:
+    method: source
+    weight: 0
+    geocode_field: field_office_address
+    reverse_geocode_field: ''
+    hidden: true
+    disabled: false
+    plugins:
+      - googlemaps
+    dumper: wkt
+    delta_handling: default
+    failure:
+      handling: preserve
+      status_message: true
+      log: true
+_core:
+  default_config_hash: hvfSnUkY1pbZNdQp57x024YsjV1We_klEFbtYTFXrXQ
+id: node.office.field_office_geolocation
+field_name: field_office_geolocation
+entity_type: node
+bundle: office
+label: 'Office geolocation'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

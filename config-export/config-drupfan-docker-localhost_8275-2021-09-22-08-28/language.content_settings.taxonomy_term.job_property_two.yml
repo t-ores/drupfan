@@ -1,0 +1,18 @@
+uuid: f89e67c4-eae7-48bc-8caa-2c81c50959c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.job_property_two
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: WS00FMDD4kvcLyUC3yNP6IQrOwUPQGfp4wNKepvL-Ms
+id: taxonomy_term.job_property_two
+target_entity_type_id: taxonomy_term
+target_bundle: job_property_two
+default_langcode: current_interface
+language_alterable: false

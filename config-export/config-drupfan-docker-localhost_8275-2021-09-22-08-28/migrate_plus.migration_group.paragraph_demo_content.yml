@@ -1,0 +1,12 @@
+uuid: 39d9a685-c6b1-4da7-9cff-d56abd1c1a37
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Yb9-lSOzEQgCYgF1EeKZrnNZsdCB5kOhC3XI4VTb2Qw
+id: paragraph_demo_content
+label: 'Rocketship Paragraphs Demo Content'
+description: 'Migrates examples of all paragraphs'
+source_type: ''
+module: null
+shared_configuration: null

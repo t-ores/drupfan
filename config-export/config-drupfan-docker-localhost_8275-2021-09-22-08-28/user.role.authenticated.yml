@@ -1,0 +1,46 @@
+uuid: 4fd15ba6-419f-4c57-b9c5-f92ff4301077
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z8fa_CTub_X1xdKV09UVgtlo7LueM9zhHdwrWMdzRJ8
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'search content'
+  - 'use text format restricted_html'
+  - userprotect.account.edit
+  - userprotect.mail.edit
+  - userprotect.pass.edit
+  - 'view paragraph content overview'
+  - 'view paragraph content p_001'
+  - 'view paragraph content p_002'
+  - 'view paragraph content p_003'
+  - 'view paragraph content p_004'
+  - 'view paragraph content p_005'
+  - 'view paragraph content p_006'
+  - 'view paragraph content p_007'
+  - 'view paragraph content p_007_child'
+  - 'view paragraph content p_008'
+  - 'view paragraph content p_009'
+  - 'view paragraph content p_010'
+  - 'view paragraph content p_010_child'
+  - 'view paragraph content p_011'
+  - 'view paragraph content p_012'
+  - 'view paragraph content p_012_child'
+  - 'view paragraph content p_014'
+  - 'view paragraph content p_016'
+  - 'view paragraph content p_017'
+  - 'view paragraph content simple_header'
+  - 'view terms in blog_tags'
+  - 'view terms in job_category'
+  - 'view terms in job_property_one'
+  - 'view terms in job_property_two'
+  - 'view terms in news_tags'
+  - 'view terms in product_category'
+  - 'view terms in product_property_one'
+  - 'view terms in product_property_two'

@@ -1,0 +1,12 @@
+uuid: 0c915e75-cfb3-4fbc-90b5-10dbcf41f01e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: VDR9aeoiEzJvukV3tkzNfmVih9ixzbdwPtDEXX97r1o
+id: dja_content
+label: 'Job Advanced Demo Content'
+description: 'Migrates advanced job content'
+source_type: ''
+module: null
+shared_configuration: null

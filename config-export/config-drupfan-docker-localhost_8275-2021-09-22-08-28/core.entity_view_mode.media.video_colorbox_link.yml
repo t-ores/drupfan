@@ -1,0 +1,12 @@
+uuid: 79b17326-56eb-4420-b467-3dfab644031a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: JGO4K4XUAyKQgw-CY-FjQ2UM0FOXIjSeLPQ85E7XBt4
+id: media.video_colorbox_link
+label: 'Video (Colorbox Link)'
+targetEntityType: media
+cache: true

@@ -1,0 +1,14 @@
+uuid: 7c6e7de8-4fcb-42a5-ac8a-03a893f32865
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nccd2UG3p8PCcwYfON-oo3BKmRUbFJTuebvYbaztrGQ
+id: taxonomy_vocabulary_job_property_one
+entity_type_id: null
+entity_id: null
+action: page_redirect
+allow_override: 1
+redirect: '/jobs?f[0]=job_property_one:[term:tid]'
+redirect_code: 301
+redirect_fallback_action: null

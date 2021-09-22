@@ -1,0 +1,12 @@
+uuid: 6ceb826d-439e-4230-a26c-bc4370fb393b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pwRWk97KC5WeJiPFsZtM0ur5baoUvM3Mff-oHDdyHdg
+id: dpa_content
+label: 'Product Advanced Demo Content'
+description: 'Migrates advanced product content'
+source_type: ''
+module: null
+shared_configuration: null

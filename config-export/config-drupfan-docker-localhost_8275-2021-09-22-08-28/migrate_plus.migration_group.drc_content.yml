@@ -1,0 +1,12 @@
+uuid: c571814f-6f55-4911-b2f5-39bf7b1f90a6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8FWZDtjQYJ0LimflmcP8CzyQ_t2xcbf4jAi9bWMWX4Q
+id: drc_content
+label: 'Realisation Core Content'
+description: 'Migrates core realisation content'
+source_type: ''
+module: null
+shared_configuration: null

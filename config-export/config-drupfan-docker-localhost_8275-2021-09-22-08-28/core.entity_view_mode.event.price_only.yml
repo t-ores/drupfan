@@ -1,0 +1,12 @@
+uuid: 23bf2a39-3d9f-4b86-9b66-e2fd1e2779cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: NKdQF53dN3AKhb0LnGz0xrs-QwVFvyh4ELoCtwJqhTE
+id: event.price_only
+label: 'Price only'
+targetEntityType: event
+cache: true

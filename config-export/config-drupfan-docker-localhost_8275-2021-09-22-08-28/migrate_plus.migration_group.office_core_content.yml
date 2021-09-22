@@ -1,0 +1,12 @@
+uuid: e7e7e6e0-0b69-4ccd-8090-6367bdee03e6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R6rGxFkw8JBk9zVTky_ZBJorEN0gV_T826RH28oI7G4
+id: office_core_content
+label: 'Office Core Content'
+description: 'Contains default contact page'
+source_type: ''
+module: null
+shared_configuration: null

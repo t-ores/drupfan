@@ -1,0 +1,23 @@
+uuid: e04b62f1-4f55-423b-95af-f2a1fd27b702
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_display_field
+    - node.type.job
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: A7aq6IXe4NLT1ZG0ozfDl1c7HBZZnWV02iqq8uCM9DI
+id: node.job.field_job_display_field
+field_name: field_job_display_field
+entity_type: node
+bundle: job
+label: 'Display Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

@@ -1,0 +1,21 @@
+uuid: 9a10e0f6-56f3-48b4-8ba9-4247c01ddfb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rocketship_core
+_core:
+  default_config_hash: dxmh3XJa-MOCeRkKCZUvg9no54KW5FTalsjHPyayEjc
+id: node.field_job_display_field
+field_name: field_job_display_field
+entity_type: node
+type: rs_display_field
+settings: {  }
+module: rocketship_core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

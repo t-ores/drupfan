@@ -1,0 +1,12 @@
+uuid: a48a62ca-656c-43b9-88c2-5448d946f9a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: FHQc628OJmE9mMgmWIbVamvPdZGDVzAURt8Hd8jh338
+id: node.frontpage
+label: Frontpage
+targetEntityType: node
+cache: true

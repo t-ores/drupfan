@@ -1,0 +1,19 @@
+uuid: 8f5db1b3-105e-45de-8a86-778a3d5031be
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: Nqca2Fgc21rcvB5-r9xrFP0H1QBIazYcFxgtp8NKO80
+name: image_style_1_4_landscape_lg_2x
+label: '1:4 landscape lg [1200×300] 2x'
+effects:
+  9201adad-5fde-4312-b3a4-cd67dc6f4ef9:
+    uuid: 9201adad-5fde-4312-b3a4-cd67dc6f4ef9
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2400
+      height: 600
+      crop_type: focal_point

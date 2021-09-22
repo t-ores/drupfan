@@ -1,0 +1,12 @@
+uuid: df345332-9d71-413e-a93d-e7a6f85c6d80
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: WEAa9coaVzXv9zpowcUnHxVMgR-qvSV8tqWXSzUXWMc
+id: event.teaser
+label: Teaser
+targetEntityType: event
+cache: true

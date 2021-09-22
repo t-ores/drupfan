@@ -1,0 +1,35 @@
+uuid: 23af0a1f-8c84-4141-8bdf-e0ed54d8ac53
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: m3C5X-lK4k886uXDL2Pmhnmy7lI-ZRqOp0Ox8JwugoM
+id: dba_media_images
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: {  }
+migration_group: dba_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/images.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  name: name
+  field_media_image/target_id:
+    plugin: migration_lookup
+    migration: dba_images
+    source: id
+  thumbnail/target_id:
+    plugin: migration_lookup
+    migration: dba_images
+    source: id
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies:
+  required:
+    - dba_images

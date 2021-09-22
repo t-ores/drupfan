@@ -1,0 +1,12 @@
+uuid: bea581a4-7143-4664-bce3-de0e589856b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: 0wIqamSV5SxEpg9gdDwwMWoTfWkHyOzQsiFa0Kr8x_w
+id: event.date_only
+label: 'Date only'
+targetEntityType: event
+cache: true

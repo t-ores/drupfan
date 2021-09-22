@@ -81,3 +81,5 @@ private/files/**
 *.unison.tmp
 # Launchpad .gitignore end DO NOT REMOVE OR EDIT THIS LINE
 .dlp.yml
+
+backup.sql

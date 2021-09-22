@@ -1,0 +1,44 @@
+uuid: 35c31658-25fa-4e57-8c03-bfc0d417d8d7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mHR74q9DLBYA9EPJup3TM0wzMVCdrUMB7Mm6QXEqnRg
+id: dpa_files
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dpa_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/files.csv
+  header_offset: 0
+  ids:
+    - id
+  constants:
+    source_base_path: /assets/files/
+    target_base_path: 'public://'
+process:
+  _source_full_path:
+    -
+      plugin: concat
+      source:
+        - constants/source_base_path
+        - name
+  _destination_full_path:
+    -
+      plugin: concat
+      source:
+        - constants/target_base_path
+        - name
+  uri:
+    plugin: file_copy
+    source:
+      - '@_source_full_path'
+      - '@_destination_full_path'
+    file_exists: rename
+destination:
+  plugin: 'entity:file'
+migration_dependencies: {  }

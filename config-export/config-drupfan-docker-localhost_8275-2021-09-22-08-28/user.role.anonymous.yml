@@ -1,0 +1,43 @@
+uuid: 54ddd78d-bc84-4822-83e0-3eb017fe752b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o946uJlkxATOINv23-nWPvp8plQ52XpSv3tUZVv007g
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'search content'
+  - 'view media'
+  - 'view paragraph content overview'
+  - 'view paragraph content p_001'
+  - 'view paragraph content p_002'
+  - 'view paragraph content p_003'
+  - 'view paragraph content p_004'
+  - 'view paragraph content p_005'
+  - 'view paragraph content p_006'
+  - 'view paragraph content p_007'
+  - 'view paragraph content p_007_child'
+  - 'view paragraph content p_008'
+  - 'view paragraph content p_009'
+  - 'view paragraph content p_010'
+  - 'view paragraph content p_010_child'
+  - 'view paragraph content p_011'
+  - 'view paragraph content p_012'
+  - 'view paragraph content p_012_child'
+  - 'view paragraph content p_014'
+  - 'view paragraph content p_016'
+  - 'view paragraph content p_017'
+  - 'view paragraph content simple_header'
+  - 'view published event entities'
+  - 'view terms in blog_tags'
+  - 'view terms in job_category'
+  - 'view terms in job_property_one'
+  - 'view terms in job_property_two'
+  - 'view terms in news_tags'
+  - 'view terms in product_category'
+  - 'view terms in product_property_one'
+  - 'view terms in product_property_two'

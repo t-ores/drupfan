@@ -1,0 +1,20 @@
+uuid: 64a0e40d-00da-4982-b4f2-2816f94c66cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+  theme:
+    - rocketship_theme_starter
+id: rocketship_theme_starter_powered_by_dropsolid
+theme: rocketship_theme_starter
+region: footer
+weight: 0
+provider: null
+plugin: powered_by_dropsolid
+settings:
+  id: powered_by_dropsolid
+  label: 'Powered by Dropsolid'
+  provider: rocketship_blocks
+  label_display: '0'
+visibility: {  }

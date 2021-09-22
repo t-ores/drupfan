@@ -1,0 +1,12 @@
+uuid: 14bbd364-8ca7-4752-9b80-1374d7795ba6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: FyaVKkHtgYrgyO3qok7M41Umko6U0YR0vamraHLBiFk
+id: p_011
+label: 'P011 Form'
+icon_uuid: a073dd68-92de-4428-be46-70be29ac41a5
+icon_default: null
+description: 'Place one of your forms on your page.'
+behavior_plugins: {  }

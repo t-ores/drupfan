@@ -1,0 +1,12 @@
+uuid: e3118775-36ad-4c58-b225-67185eadc60b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: WjTSLqWAY9HI8REW2RVgDmKPol3q3Lm-ZfYcoc_73CY
+id: media.paragraph_p009_image_masonry
+label: 'Paragraph p009 (masonry images)'
+targetEntityType: media
+cache: true

@@ -1,0 +1,20 @@
+uuid: 0dc80e39-879e-4d33-bfb5-5789fe2fd486
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 44g2yRFViN91RgYbGzO3ni-hcGLYYfSjdGzb8hGrPtk
+id: node.field_office_show_contact_form
+field_name: field_office_show_contact_form
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

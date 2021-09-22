@@ -1,0 +1,10 @@
+uuid: f4914d71-cd38-49f2-8899-e5286372692a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4N7Ra4wJuzbqJNN8qWrNCRNXDeiRzx60XVqc3So4vJ4
+name: 'Job Category'
+vid: job_category
+description: ''
+weight: 0

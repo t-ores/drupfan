@@ -1,0 +1,21 @@
+admin_css: false
+fx: ''
+noscript: false
+responsive_image: true
+one_pixel: true
+placeholder: ''
+extras: {  }
+blazy:
+  loadInvisible: false
+  offset: 100
+  saveViewportOffsetDelay: 50
+  validateDelay: 25
+  container: ''
+io:
+  enabled: false
+  unblazy: false
+  rootMargin: 0px
+  threshold: '0'
+  disconnect: false
+_core:
+  default_config_hash: Pt45Uf2o6Eb4KY7GE6CBKNjnCi6lZHzKsMw7QEksy3s

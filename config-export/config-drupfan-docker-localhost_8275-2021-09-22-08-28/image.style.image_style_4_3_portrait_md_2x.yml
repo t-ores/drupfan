@@ -1,0 +1,19 @@
+uuid: c089bd90-4753-4d06-b234-ef8f093a5495
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: ZlUsq-YTaIOgMfFhR1GswWJFQYHRneFIpO8qY2LRQYM
+name: image_style_4_3_portrait_md_2x
+label: '4:3 portrait md [1024×1366] 2x'
+effects:
+  8cc48529-262e-4b43-8858-762c4b22d556:
+    uuid: 8cc48529-262e-4b43-8858-762c4b22d556
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2048
+      height: 2724
+      crop_type: focal_point

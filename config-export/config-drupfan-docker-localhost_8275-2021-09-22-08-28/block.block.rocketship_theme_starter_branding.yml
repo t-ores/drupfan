@@ -1,0 +1,25 @@
+uuid: 15a2ccad-cde3-4ac2-a1ce-5fc2ced5c70d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rocketship_theme_starter
+_core:
+  default_config_hash: zsL16ZP0wtjUXTSpc4Niy69O3INaH5gtiK9QzNxOQps
+id: rocketship_theme_starter_branding
+theme: rocketship_theme_starter
+region: header
+weight: -10
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

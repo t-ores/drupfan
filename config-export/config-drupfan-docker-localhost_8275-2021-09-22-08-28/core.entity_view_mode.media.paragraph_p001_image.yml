@@ -1,0 +1,12 @@
+uuid: 86b58d66-b4e0-4ec5-b85c-cc80d3062f95
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: uiqEPUNoBnwwcDXbDpH9ue4Md2vPCmKX03gUzZ2oXx8
+id: media.paragraph_p001_image
+label: 'Paragraph p001 (image aside)'
+targetEntityType: media
+cache: true

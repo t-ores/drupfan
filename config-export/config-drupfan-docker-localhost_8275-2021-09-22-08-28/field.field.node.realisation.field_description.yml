@@ -1,0 +1,21 @@
+uuid: 1b50edf3-e6ab-4c24-960d-9fa96fac222b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.realisation
+_core:
+  default_config_hash: D2ziQdeOoJzrcLKRa39cP4r7R0lIwr2Al2BcGZLL1CQ
+id: node.realisation.field_description
+field_name: field_description
+entity_type: node
+bundle: realisation
+label: 'Page description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

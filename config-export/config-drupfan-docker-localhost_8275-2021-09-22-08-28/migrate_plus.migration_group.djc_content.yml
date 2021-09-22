@@ -1,0 +1,12 @@
+uuid: f532dbad-bd08-4d93-a504-d2a8bfd0b988
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mNxn-kIrR0FUQwHq4iJEzv1K2KEFefuypoUAgxhZyS0
+id: djc_content
+label: 'Job Core Demo Content'
+description: 'Migrates core job content'
+source_type: ''
+module: null
+shared_configuration: null

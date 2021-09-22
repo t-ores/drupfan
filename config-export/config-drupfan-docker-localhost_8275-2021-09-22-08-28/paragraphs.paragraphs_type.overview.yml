@@ -1,0 +1,12 @@
+uuid: d24659ca-076a-4e58-96c7-34a3be7d3d5d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yJ_xY8_wRJffh5QJ523GG1xXTY1hplt7t2h6BIXxgys
+id: overview
+label: 'P013 Overview'
+icon_uuid: null
+icon_default: null
+description: 'Outputs the selected overview'
+behavior_plugins: {  }

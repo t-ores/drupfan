@@ -1,0 +1,10 @@
+uuid: b0076fef-bd3a-4117-ba94-a05c099292c2
+langcode: en
+status: true
+dependencies: {  }
+id: paragraph_content_demo
+label: paragraph_content_demo
+description: ''
+source_type: null
+module: null
+shared_configuration: null

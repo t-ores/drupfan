@@ -1,0 +1,12 @@
+uuid: 34182af9-7007-44e6-ba8c-b30ad3bf1bb3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: StOTTnB4EyAfsv25eFWLOcNb11fA67MRg9nJF6E_aXw
+id: p_010_child
+label: 'P010 Logo Item'
+icon_uuid: null
+icon_default: null
+description: 'Logo item, used for the Logo Bar paragraphs type'
+behavior_plugins: {  }

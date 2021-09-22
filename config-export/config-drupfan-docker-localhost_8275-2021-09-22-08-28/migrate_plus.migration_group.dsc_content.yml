@@ -1,0 +1,12 @@
+uuid: bc6f1c5c-87c7-41fa-82fe-41d080e8a6c9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Xz42pD2GnpdIlVd92uBNxO0c_HtRx0cKZlloJJF57a8
+id: dsc_content
+label: 'Service Core Content'
+description: 'Migrates core service content'
+source_type: ''
+module: null
+shared_configuration: null

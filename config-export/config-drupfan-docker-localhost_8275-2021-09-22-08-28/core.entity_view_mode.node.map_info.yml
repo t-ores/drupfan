@@ -1,0 +1,12 @@
+uuid: c8bfe2f7-022d-4e86-bc10-76a2de02df69
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: nF09Oucg-5YzeZZHVJqU3IPXE76_OcYFIWTtPmrtPps
+id: node.map_info
+label: 'Map Info'
+targetEntityType: node
+cache: true

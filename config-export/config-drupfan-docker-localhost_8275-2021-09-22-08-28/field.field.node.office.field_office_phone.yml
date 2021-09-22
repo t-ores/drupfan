@@ -1,0 +1,23 @@
+uuid: f3a2dc17-97cb-470a-b0f2-2312041b479f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_phone
+    - node.type.office
+  module:
+    - telephone
+_core:
+  default_config_hash: uWHCbu-ggKZlbZ4iU-oaTEFj7xKmppDDZMKi-l0sdvA
+id: node.office.field_office_phone
+field_name: field_office_phone
+entity_type: node
+bundle: office
+label: 'Office phone number'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

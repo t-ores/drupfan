@@ -1,0 +1,35 @@
+uuid: 404f28f7-a51c-4212-babd-64e0b14cee36
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _FP_I3lX0LLKDY-Sfj9vKF3BAX4vGAWE_lmjZ9Sinxc
+id: office_core_media_images
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: office_core_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/images.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  name: name
+  field_media_image/target_id:
+    plugin: migration_lookup
+    migration: office_core_images
+    source: id
+  thumbnail/target_id:
+    plugin: migration_lookup
+    migration: office_core_images
+    source: id
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies:
+  required:
+    - office_core_images

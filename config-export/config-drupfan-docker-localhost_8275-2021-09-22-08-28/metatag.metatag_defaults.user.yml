@@ -1,0 +1,11 @@
+uuid: d15063c0-3ab0-48cc-8ef8-bc2327f2f216
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 55_ygghZ5WYRmjJl1ZTsE24bPA0vS_Y8JnJRiC4yvrw
+id: user
+label: User
+tags:
+  title: '[user:name] | [site:name]'
+  og_type: profile

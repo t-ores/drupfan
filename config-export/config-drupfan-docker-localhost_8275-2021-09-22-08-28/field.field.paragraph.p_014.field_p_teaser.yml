@@ -1,0 +1,21 @@
+uuid: cdcc56ee-4536-46bf-b397-4ea01565d659
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_teaser
+    - paragraphs.paragraphs_type.p_014
+_core:
+  default_config_hash: Nyrlw0DrfWp9zTzh_zIlp1bSRCjn2P2KyRIa_JsPIYw
+id: paragraph.p_014.field_p_teaser
+field_name: field_p_teaser
+entity_type: paragraph
+bundle: p_014
+label: Teaser
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,12 @@
+uuid: b1d4b9e0-9ade-48ad-8a19-47ce093fdce8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ip43Vc5KAELMyPn3Ds5WGLHumEwZ3YFpfi1blodcqQA
+id: p_014
+label: 'P014 Related Items'
+icon_uuid: 367caced-d7cd-4404-bb56-9d474226c942
+icon_default: null
+description: "Select other pages that are related to this one, and they'll be shown in a visually interesting list.\r\n"
+behavior_plugins: {  }

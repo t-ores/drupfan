@@ -1,0 +1,25 @@
+uuid: 8fc6ce4a-ffe8-4bab-aa5f-86344037a4a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_breadcrumb
+    - node.type.event
+_core:
+  default_config_hash: UUf3sgKY45eNLY9P356S_J4_8Dz6tbGI3wj1eZT9bFk
+id: node.event.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: node
+bundle: event
+label: 'Show breadcrumb'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: ba679f9e-ee47-4e0f-9f64-5400df6edde8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_display_field
+    - node.type.product
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: kJYhi3hWFKCy2DfDhFQAoI0HRIDc72GbUkx9NAvHDI8
+id: node.product.field_product_display_field
+field_name: field_product_display_field
+entity_type: node
+bundle: product
+label: 'Display Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

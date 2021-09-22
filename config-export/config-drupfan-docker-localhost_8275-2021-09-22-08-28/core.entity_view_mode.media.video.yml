@@ -1,0 +1,12 @@
+uuid: 425c063b-a138-4638-ba03-ce05fd6f6345
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: HpvQOrZ_ySlHY1AHhWQt01YELSi5iwhd74qeHLCsJuk
+id: media.video
+label: Video
+targetEntityType: media
+cache: true

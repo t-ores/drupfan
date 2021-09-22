@@ -1,0 +1,31 @@
+uuid: 31231215-3add-4c13-a26b-384e4325e834
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: w0mylv9z_RzH5XJCp72Pa5_7B7qZq0BsMMM-LT2m1zs
+id: dpc_media_files
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dpc_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/files.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  name: name
+  field_media_file/target_id:
+    plugin: migration_lookup
+    migration: dpc_files
+    source: id
+destination:
+  plugin: 'entity:media'
+  default_bundle: file
+migration_dependencies:
+  required:
+    - dpc_files

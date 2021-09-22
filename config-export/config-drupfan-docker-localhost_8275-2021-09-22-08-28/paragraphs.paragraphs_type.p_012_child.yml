@@ -1,0 +1,12 @@
+uuid: a909fe79-f016-4434-8188-115e14abc9e0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B_duXt-sGszzmQp-TTAi38mmA1BkdMFOnJl7Hey_BOE
+id: p_012_child
+label: 'P012 Guidance box'
+icon_uuid: null
+icon_default: null
+description: 'Guidance boxes for displaying images and teaser in different modes, to be used with Guidance paragraph.'
+behavior_plugins: {  }

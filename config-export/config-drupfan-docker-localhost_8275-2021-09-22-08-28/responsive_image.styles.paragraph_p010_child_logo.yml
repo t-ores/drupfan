@@ -1,0 +1,26 @@
+uuid: 2326fee2-99fe-4d6a-896e-19334eec61ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.image_style_p_010_child_logo
+    - image.style.image_style_p_010_child_logo_2x
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: m_gNE09q8W6Y3OvJoLaYGdlxkWSynIoVohVDMn2-Czk
+id: paragraph_p010_child_logo
+label: 'Paragraph p010 (logo)'
+image_style_mappings:
+  -
+    breakpoint_id: rocketship_core.all
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_style_p_010_child_logo
+  -
+    breakpoint_id: rocketship_core.all
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: image_style_p_010_child_logo_2x
+breakpoint_group: rocketship_core
+fallback_image_style: image_style_p_010_child_logo

@@ -1,0 +1,12 @@
+uuid: 4679060c-6f3c-481f-8e0e-fe8eaddfec6c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tzax7PlBk1RjaM8L3kldvYv1xy8jdgm_5AaGE6qrvzY
+id: p_002
+label: 'P002 Image'
+icon_uuid: 62a72975-3250-4397-8f20-cfb88b2deda5
+icon_default: null
+description: 'Add a large image to one of your pages. The image will span the full width of the screen for extra effect.'
+behavior_plugins: {  }

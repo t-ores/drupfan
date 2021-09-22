@@ -1,0 +1,72 @@
+uuid: 309ae9e2-1c60-424d-8686-72db99150877
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_page
+      - rocketship_cookie_policy
+_core:
+  default_config_hash: gEU1He6nRXRtmh8oqngm4hpTiLMN8DO4gOnoFaeEwyU
+id: dcp_page
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rocketship_cookie_policy
+label: null
+source:
+  plugin: csv
+  path: modules/contrib/rocketship_core/modules/rocketship_cookie_policy/modules/dcp_demo/assets/csv/pages.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  title: title
+  node_keeper: node_keeper
+  alias_keeper: alias_keeper
+  uuid: uuid
+  field_description: field_description
+  path/alias: path
+  path/pathauto:
+    plugin: default_value
+    default_value: 0
+  field_paragraphs:
+    -
+      plugin: explode
+      source: field_paragraphs
+      delimiter: '|'
+    -
+      plugin: migration_lookup
+      migration: dcp_text_main
+      no_stub: true
+    -
+      plugin: sub_process
+      process:
+        target_id: '0'
+        target_revision_id: '1'
+  field_header_paragraph:
+    -
+      plugin: explode
+      source: field_header_paragraph
+      delimiter: '|'
+    -
+      plugin: migration_lookup
+      migration: dcp_simple_header
+      no_stub: true
+    -
+      plugin: sub_process
+      process:
+        target_id: '0'
+        target_revision_id: '1'
+destination:
+  plugin: 'entity:node'
+  default_bundle: page
+migration_dependencies:
+  required:
+    - dcp_text_main
+    - dcp_simple_header
+  optional: {  }

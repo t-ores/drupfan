@@ -1,0 +1,31 @@
+uuid: 437f6891-cf15-4fc2-b52b-ce8218c206ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - office_hours
+_core:
+  default_config_hash: BnArqW6wzHt-NaU1E80PbaDrqNVQIf9SKPsFWJRg5ow
+id: node.field_office_hours
+field_name: field_office_hours
+entity_type: node
+type: office_hours
+settings:
+  cardinality_per_day: '2'
+  time_format: G
+  element_type: office_hours_datetime
+  increment: '15'
+  comment: 1
+  valhrs: 0
+  limit_start: ''
+  limit_end: ''
+  required_start: false
+  required_end: false
+module: office_hours
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

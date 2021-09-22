@@ -1,0 +1,12 @@
+uuid: b1da5f85-4766-4cb5-849a-0fc4a55b0331
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9zyutgoIkwFfcHZfGx0mG_zY0Hmn3zwcFta0han3UFo
+id: rocketship_event_overview
+label: 'Rocketship Event Overview'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

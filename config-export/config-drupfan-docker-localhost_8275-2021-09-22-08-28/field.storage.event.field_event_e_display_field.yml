@@ -1,0 +1,21 @@
+uuid: 91980287-8817-4465-a1dd-a53a7cf318e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_core
+    - rocketship_event_core
+_core:
+  default_config_hash: xJcTNZogJyWMfQMJsLBwcPK89myUJvdZKPYgGcCldiY
+id: event.field_event_e_display_field
+field_name: field_event_e_display_field
+entity_type: event
+type: rs_display_field
+settings: {  }
+module: rocketship_core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

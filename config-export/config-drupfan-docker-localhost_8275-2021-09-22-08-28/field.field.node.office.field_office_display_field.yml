@@ -1,0 +1,23 @@
+uuid: f2b8b342-8311-4e0b-8621-66a18605bbac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_office_display_field
+    - node.type.office
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: s91rf-MMO2vi2geKR4QWoQI_nInjukrE5pzINW_0R8E
+id: node.office.field_office_display_field
+field_name: field_office_display_field
+entity_type: node
+bundle: office
+label: 'Display Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

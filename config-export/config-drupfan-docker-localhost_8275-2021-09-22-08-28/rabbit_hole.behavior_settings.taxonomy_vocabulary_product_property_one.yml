@@ -1,0 +1,14 @@
+uuid: 0072796f-722c-4f7f-aadc-559c354bd994
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: foeYFujCqymGEG4SNd1q6yAlMMx6zPe_3iuW15Slrg8
+id: taxonomy_vocabulary_product_property_one
+entity_type_id: null
+entity_id: null
+action: page_redirect
+allow_override: 1
+redirect: '/products?f[0]=property_one:[term:tid]'
+redirect_code: 301
+redirect_fallback_action: null

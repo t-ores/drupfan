@@ -1,0 +1,20 @@
+uuid: 25f3d42a-5045-4700-91c6-3aac91cbf4cb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Sc15uNazmAr3kDWhfW2PWEZtYqnmC39KGHpXggi8d6g
+id: whitelist
+label: Whitelist
+description: ''
+folder: ../config/splits/whitelist
+module: {  }
+theme: {  }
+blacklist:
+  - webform.webform.event_subscription
+  - webform.webform.apply_for_this_job
+  - webform.webform.office_contact
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: -99

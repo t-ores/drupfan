@@ -1,0 +1,25 @@
+uuid: 754b46f1-13d8-4eab-bec2-8345dcee025a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_author
+    - node.type.blog
+_core:
+  default_config_hash: _Vwl68LkMPwtj0RwyKd73a_WhLu2LnJqzrEVo2KvZSM
+id: node.blog.field_show_author
+field_name: field_show_author
+entity_type: node
+bundle: blog
+label: 'Show author'
+description: 'Checking this will show the name of the author as part of the header'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

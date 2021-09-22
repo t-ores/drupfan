@@ -1,0 +1,22 @@
+uuid: daea74f8-c101-4bd1-a861-a02f58256ad0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: oXFrRUhhoicaLKLdl0GyRVfDNnCBoXqN-zFB4SI9Byw
+id: node.field_job_category
+field_name: field_job_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 6db1d380-c221-470a-80ca-c4e5538774db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_breadcrumb
+    - node.type.service
+_core:
+  default_config_hash: x4Pp_KbZZAvVyoLEGNaxPa06XgqjAhxUG9Ot5WRNIis
+id: node.service.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: node
+bundle: service
+label: 'Show breadcrumb'
+description: 'When checked the breadcrumb will be visible on this page'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

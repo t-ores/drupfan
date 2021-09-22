@@ -1,0 +1,25 @@
+uuid: 74472141-34a1-40e0-8f22-aabeb788d6a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_breadcrumb
+    - node.type.job
+_core:
+  default_config_hash: Wiby3BjwMbX1EPjeCOsdW73o3GspF0KStwUnNinuMMo
+id: node.job.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: node
+bundle: job
+label: 'Show breadcrumb'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

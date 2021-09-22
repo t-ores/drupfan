@@ -1,0 +1,20 @@
+uuid: 0af97b55-18fd-4fc7-a515-1178cbb72c75
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: E6PAVamdCz97Yk1P-QIAkPxnoWY1Yk00yBXIIaEVUaA
+id: node.job
+target_entity_type_id: node
+target_bundle: job
+default_langcode: current_interface
+language_alterable: false

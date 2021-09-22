@@ -1,0 +1,12 @@
+uuid: c692b896-73bb-414f-992b-dfb111123e22
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 2RcfAhNGJyAEBCPNhZGwDob5_52Yb0r-OvNDDFlM2IM
+id: p_007
+label: 'P007 USP'
+icon_uuid: e5a90d38-6804-4433-9b1f-af54ab9ebfe0
+icon_default: null
+description: 'Make a list of the strong points of your company, product or service. Show them in 2, 3 or 4 columns, each with a matching visual.'
+behavior_plugins: {  }

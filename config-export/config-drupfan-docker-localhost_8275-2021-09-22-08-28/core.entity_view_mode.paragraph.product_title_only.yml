@@ -1,0 +1,12 @@
+uuid: ffacc590-d691-466f-93c1-0dfd3e70c7a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: sRMu-RasWGMjkoDeNO_zMZ_UznZEmeEXDpZRng9HZeI
+id: paragraph.product_title_only
+label: 'Product title only'
+targetEntityType: paragraph
+cache: true

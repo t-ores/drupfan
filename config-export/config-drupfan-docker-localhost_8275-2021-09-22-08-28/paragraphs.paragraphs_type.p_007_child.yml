@@ -1,0 +1,12 @@
+uuid: 9db894b7-e265-44a4-bf22-f9e0249448f4
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rydxJ3e2ha7l8SESe721KZcXO8cJKqPXzk1LL1CGEYI
+id: p_007_child
+label: 'P007 USP item'
+icon_uuid: null
+icon_default: null
+description: 'USP item, used for the USP paragraph type'
+behavior_plugins: {  }

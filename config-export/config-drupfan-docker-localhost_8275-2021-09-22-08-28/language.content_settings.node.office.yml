@@ -1,0 +1,20 @@
+uuid: 7946743c-1663-4b39-9407-6e19df75196d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.office
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: xoiQ_DtPT3C_jWJ2T07qUpsZT0AD-cYusz3Ri1Tz0ys
+id: node.office
+target_entity_type_id: node
+target_bundle: office
+default_langcode: current_interface
+language_alterable: false

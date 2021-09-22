@@ -1,0 +1,20 @@
+uuid: eefa63fc-0573-4889-b344-b41baae709a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: yMYP5G38sBrF7h9JIxK5T0az2MnB59qFhFrJXZ1qYt8
+name: image_style_p007_two_col
+label: 'Paragraph p007 child (2 col)'
+effects:
+  47d9adda-0840-4448-9776-859ddf3535af:
+    uuid: 47d9adda-0840-4448-9776-859ddf3535af
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      crop_type: focal_point
+pipeline: __default__

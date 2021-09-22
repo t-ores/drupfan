@@ -1,0 +1,29 @@
+uuid: 2f66a354-9cff-4605-a338-047fe8c7327d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: C7PFmvW2Aqt1wT_YKOkuCexFRf-WIaMub3QxvFvsRgI
+id: local
+label: Local
+description: ''
+folder: ../config/splits/local
+module:
+  dblog: 0
+  devel: 0
+  devel_php: 0
+  reroute_email: 0
+  twig_xdebug: 0
+  views_ui: 0
+theme: {  }
+blacklist:
+  - advagg.settings
+  - advagg_js_minify.settings
+  - environment_indicator.indicator
+  - environment_indicator.settings
+  - system.logging
+  - system.performance
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

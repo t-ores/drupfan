@@ -1,0 +1,10 @@
+uuid: 07ba1b80-d38f-44d2-9933-cf438f406d12
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DbqHjWpq9lRkNfgSS3Z4wqBlLEqReSFIoJeSN8l2s4s
+id: block_usp
+label: USP
+revision: 0
+description: ''

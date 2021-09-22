@@ -1,0 +1,23 @@
+uuid: 94a01aec-27ae-4bd8-9789-9cb1edad1777
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j3cMIj49kp9-sKtHoZK0UJSvFjVsiIxepO7PEhMex9E
+id: blacklist
+label: Blacklist
+description: ''
+folder: null
+module: {  }
+theme: {  }
+blacklist:
+  - 'webform.*'
+  - 'system.action.webform_*'
+  - simple_sitemap.custom_links.default
+  - simple_recaptcha.config
+  - 'google_tag*'
+  - simple_sitemap.settings
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: false
+weight: 0

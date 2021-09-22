@@ -1,0 +1,10 @@
+uuid: 7239f63d-b88e-4e4d-ac7f-b6253bff56b1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Zx7kYm4Sgqylc8Zr0PQCa11zBQGGRQPqnG32MsGg7jk
+name: 'Product property one'
+vid: product_property_one
+description: ''
+weight: 0

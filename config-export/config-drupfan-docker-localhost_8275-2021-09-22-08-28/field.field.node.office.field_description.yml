@@ -1,0 +1,21 @@
+uuid: 69f4426b-c683-41a4-82d8-141a7a8c66ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.office
+_core:
+  default_config_hash: h6yWPFa8XN-ojzmdN4dacD4gijAwvhNlwjXGBBOVPcM
+id: node.office.field_description
+field_name: field_description
+entity_type: node
+bundle: office
+label: Teaser
+description: 'This text is also used for SEO purposes and in social media snippets.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

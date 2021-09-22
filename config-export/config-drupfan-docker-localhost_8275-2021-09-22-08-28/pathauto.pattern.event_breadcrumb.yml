@@ -1,0 +1,24 @@
+uuid: ac2ea236-075e-4a7d-8215-e4acefd1e199
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: wYv8TKPhdLQaKU-F1DGUiLTQr_eJCwgLViz2jxDK3eE
+id: event_breadcrumb
+label: 'Event breadcrumb'
+type: 'canonical_entities:node'
+pattern: 'events/[node:title]'
+selection_criteria:
+  3848697b-5519-4eb5-8e3b-d8c87444b749:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 3848697b-5519-4eb5-8e3b-d8c87444b749
+selection_logic: and
+weight: -5
+relationships: {  }

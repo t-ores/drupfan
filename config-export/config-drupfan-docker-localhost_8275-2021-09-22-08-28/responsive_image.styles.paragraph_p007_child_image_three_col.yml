@@ -1,0 +1,58 @@
+uuid: 087d732a-e196-479f-b60c-7597b97c2ec1
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.image_style_3_2_landscape_sm
+    - image.style.image_style_3_2_landscape_sm_2x
+    - image.style.image_style_3_2_landscape_xs_wide
+    - image.style.image_style_3_2_landscape_xs_wide_2x
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: ST9XtWVjxjRXepj2E3H06S7HphMMrzN9yQyVx_a8448
+id: paragraph_p007_child_image_three_col
+label: 'Paragraph p007 child (3 col)'
+image_style_mappings:
+  -
+    breakpoint_id: rocketship_core.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_sm
+  -
+    breakpoint_id: rocketship_core.md
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_sm_2x
+  -
+    breakpoint_id: rocketship_core.sm
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide
+  -
+    breakpoint_id: rocketship_core.sm
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide_2x
+  -
+    breakpoint_id: rocketship_core.xs-wide
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide
+  -
+    breakpoint_id: rocketship_core.xs-wide
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide_2x
+  -
+    breakpoint_id: rocketship_core.all
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide
+  -
+    breakpoint_id: rocketship_core.all
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: image_style_3_2_landscape_xs_wide_2x
+breakpoint_group: rocketship_core
+fallback_image_style: image_style_3_2_landscape_sm

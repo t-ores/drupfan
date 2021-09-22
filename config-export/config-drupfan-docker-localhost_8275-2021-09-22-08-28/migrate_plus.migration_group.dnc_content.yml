@@ -1,0 +1,12 @@
+uuid: 635ad1da-9008-40e3-9367-81a15549d15a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: u7CGqG61G3a-ipP3OtpHEwoRqfqSfNLLyoAZdLBlSLU
+id: dnc_content
+label: 'News Core Content'
+description: 'Migrates core news content'
+source_type: ''
+module: null
+shared_configuration: null

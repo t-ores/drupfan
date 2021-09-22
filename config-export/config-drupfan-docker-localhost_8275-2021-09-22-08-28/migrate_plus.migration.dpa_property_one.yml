@@ -1,0 +1,33 @@
+uuid: 37ccaa26-712d-4ad7-9ede-705c15ace1bb
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_product_advanced_content
+_core:
+  default_config_hash: HD8pGtYvEjTHrLkEqsEoMOoXwrl96fxa0G1IwqvcomA
+id: dpa_property_one
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dpa_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/property_one.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: product_property_one
+migration_dependencies:
+  required: {  }
+  optional: {  }

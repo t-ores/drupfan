@@ -1,0 +1,26 @@
+uuid: f42c88e1-a18a-4d78-8b84-12711f6e09b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.event.field_event_price
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: uKuDyo3yj1xQpx0IQn0wqpnhVS0Lj0dNaILLdL0QZ-8
+id: event.event.field_event_price
+field_name: field_event_price
+entity_type: event
+bundle: event
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: '€ '
+  suffix: /p.p
+field_type: decimal

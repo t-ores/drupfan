@@ -1,0 +1,31 @@
+uuid: 0ca27e41-b357-4302-a277-40d800a3aa81
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZzGtwtuw9vkHicZe-AIUQaCwQfnEFf9pa-G4Y9P-1YY
+id: dpa_media_files
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dpa_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/files.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  name: name
+  field_media_file/target_id:
+    plugin: migration_lookup
+    migration: dpa_files
+    source: id
+destination:
+  plugin: 'entity:media'
+  default_bundle: file
+migration_dependencies:
+  required:
+    - dpa_files

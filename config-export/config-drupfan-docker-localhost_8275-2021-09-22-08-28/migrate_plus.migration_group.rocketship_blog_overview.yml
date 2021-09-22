@@ -1,0 +1,12 @@
+uuid: 40580702-3350-41fb-a464-a8117e51a499
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _p01L9pjifMlOHFL-iT-2uTL1oVooLUSOHJLHzN6Cjw
+id: rocketship_blog_overview
+label: 'Rocketship Blog Overview'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

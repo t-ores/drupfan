@@ -1,0 +1,24 @@
+uuid: e6a13c58-f057-4525-afda-0b0927128626
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.p_005
+_core:
+  default_config_hash: gx_KRNKflPynXLvk4SrRaz5yp9sinVxvgcmCFk8omsc
+id: paragraph.p_005.status
+field_name: status
+entity_type: paragraph
+bundle: p_005
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

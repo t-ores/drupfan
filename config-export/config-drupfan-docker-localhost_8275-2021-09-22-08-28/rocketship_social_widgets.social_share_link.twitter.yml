@@ -1,0 +1,12 @@
+uuid: 7513ad0c-d468-4f45-b424-41a92661e387
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: B8OPowSbkSsqYMh7-G3iu0HhAtCw41ZA8249EvPJYr4
+id: twitter
+label: Twitter
+sharer_url: 'https://twitter.com/intent/tweet?text=[current-page:url:absolute]'
+onclick: ''
+weight: -8
+target: _blank

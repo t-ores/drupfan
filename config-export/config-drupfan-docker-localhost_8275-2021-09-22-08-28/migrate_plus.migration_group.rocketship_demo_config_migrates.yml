@@ -1,0 +1,12 @@
+uuid: a9a7a862-d7ca-4aee-9441-62bf8b820a57
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EUl8OmBGEng9qRITzPR5Q-aIGfNJ6kA4dOaFhGwW7kA
+id: rocketship_demo_config_migrates
+label: 'Dropsolid Demo Config Migrates'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

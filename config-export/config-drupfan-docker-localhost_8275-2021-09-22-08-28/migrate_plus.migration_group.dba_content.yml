@@ -1,0 +1,12 @@
+uuid: ff601d92-01f6-4ef2-806d-180c6f948090
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pXGq5RUMcvJ1IE44UgoXrzroqIYKYFe8UgH0OgBMads
+id: dba_content
+label: 'Blog Advanced Content'
+description: 'Migrates advanced blog content'
+source_type: ''
+module: null
+shared_configuration: null

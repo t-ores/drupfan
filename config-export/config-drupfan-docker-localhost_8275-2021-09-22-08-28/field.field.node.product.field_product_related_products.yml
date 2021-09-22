@@ -1,0 +1,29 @@
+uuid: 1f686f1d-988f-4c6d-931a-7cd4437bb467
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_related_products
+    - node.type.product
+_core:
+  default_config_hash: ahBFfa5ZANR6rtdFmWD8DxkpbNQ_7pBuhpJ8HRlBrDo
+id: node.product.field_product_related_products
+field_name: field_product_related_products
+entity_type: node
+bundle: product
+label: 'Related products'
+description: 'Override the related products that are fetched based on Categories manually here. The related products list will always attempt to reach 3 products.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

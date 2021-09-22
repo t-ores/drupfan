@@ -1,0 +1,33 @@
+uuid: caccd613-4d33-4f97-9d33-b6b67adec71f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_job_advanced_content
+_core:
+  default_config_hash: vmzXaMBJ-PaaDRksNcixsrzvYRAofuzxX7qzqv8Anj8
+id: dja_categories
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dja_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/categories.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  name: name
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: job_category
+migration_dependencies:
+  required: {  }
+  optional: {  }

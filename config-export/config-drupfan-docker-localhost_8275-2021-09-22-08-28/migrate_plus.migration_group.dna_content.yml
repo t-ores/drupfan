@@ -1,0 +1,12 @@
+uuid: 09b77a9d-79e8-4c78-b6d1-48b2d5755ce7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: '-otXzkyb5jvKOMciVr07ZvpqmNyJ8hJctP3iL3pcuIU'
+id: dna_content
+label: 'News Advanced Content'
+description: 'Migrates advanced news content'
+source_type: ''
+module: null
+shared_configuration: null

@@ -1,0 +1,25 @@
+uuid: df78d26b-82a2-4773-8e64-5acc2403bbb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_breadcrumb
+    - node.type.blog
+_core:
+  default_config_hash: yMMvdhZcb4-EXqPf_5rcdboJhjcalDCY-j0eM1hTWBY
+id: node.blog.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: node
+bundle: blog
+label: 'Show breadcrumb'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

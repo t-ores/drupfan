@@ -1,0 +1,12 @@
+uuid: a1d2b34b-4192-443a-8122-1aadfeaa6c70
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dkkn1ZT6qNtCEvXIGjYyHfTZFAqyAoh2TrbI6aTNQsI
+id: dpc_content
+label: 'Product Core Demo Content'
+description: 'Migrates core product content'
+source_type: ''
+module: null
+shared_configuration: null

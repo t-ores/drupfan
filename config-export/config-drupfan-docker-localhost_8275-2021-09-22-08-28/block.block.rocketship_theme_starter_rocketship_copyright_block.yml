@@ -1,0 +1,23 @@
+uuid: c63673fc-3f09-4894-bae1-fa4138510967
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+  theme:
+    - rocketship_theme_starter
+id: rocketship_theme_starter_rocketship_copyright_block
+theme: rocketship_theme_starter
+region: footer
+weight: 0
+provider: null
+plugin: rocketship_copyright_block
+settings:
+  id: rocketship_copyright_block
+  label: Copyright
+  provider: rocketship_blocks
+  label_display: '0'
+  terms_of_use: null
+  privacy_policy: null
+  company: 'Dropsolid Rocketship Profile'
+visibility: {  }

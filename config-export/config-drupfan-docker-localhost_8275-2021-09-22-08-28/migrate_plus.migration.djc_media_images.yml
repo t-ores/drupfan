@@ -1,0 +1,35 @@
+uuid: 1be41035-bf87-412c-8d6b-b462d953b195
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BcUoWVswXG9tIGUHOQOWdzhLYHQxZIVJRgI6GPc2n8g
+id: djc_media_images
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: djc_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/images.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  name: name
+  field_media_image/target_id:
+    plugin: migration_lookup
+    migration: djc_images
+    source: id
+  thumbnail/target_id:
+    plugin: migration_lookup
+    migration: djc_images
+    source: id
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies:
+  required:
+    - djc_images

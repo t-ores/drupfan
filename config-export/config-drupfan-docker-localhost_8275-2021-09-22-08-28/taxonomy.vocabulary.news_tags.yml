@@ -1,0 +1,10 @@
+uuid: 1c799008-6b63-415c-a60a-ccec36fe1cd1
+langcode: und
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: I6b_zwqT_6QkE-9lIEmcfNRKQm5wBMobFVmCPdLJo5A
+name: 'News tags'
+vid: news_tags
+description: ''
+weight: 0

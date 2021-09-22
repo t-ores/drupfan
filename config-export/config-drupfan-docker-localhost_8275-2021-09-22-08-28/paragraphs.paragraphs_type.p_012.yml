@@ -1,0 +1,12 @@
+uuid: d1332185-e360-486d-9d95-ee1432fc2ad6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4EiLq44DgcKEKLogmd588HPpOopXDI_3qi0g9LIUegE
+id: p_012
+label: 'P012 Guidance'
+icon_uuid: e80cfc35-abc7-4662-a7df-5bd43b70a8e1
+icon_default: null
+description: 'Display selectable multi layout image and text with background.'
+behavior_plugins: {  }

@@ -1,0 +1,31 @@
+uuid: 721716b2-67c4-49d6-8298-bb4fe1262887
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_property_one
+    - node.type.job
+    - taxonomy.vocabulary.job_property_one
+_core:
+  default_config_hash: o-bz6-n_xhoLRMpliF9b6rJXTUU_F_sfvDqSB1AhzUQ
+id: node.job.field_job_property_one
+field_name: field_job_property_one
+entity_type: node
+bundle: job
+label: 'Job Property One'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      job_property_one: job_property_one
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

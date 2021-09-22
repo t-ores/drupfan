@@ -1,0 +1,25 @@
+uuid: 998a3ac8-9d28-4e4e-9368-8c2918f788c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_breadcrumb
+    - node.type.news
+_core:
+  default_config_hash: aDpvC0Tt_fc6pnbUC3kfDk0aOHB3UZ27YVt8ceXpihI
+id: node.news.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: node
+bundle: news
+label: 'Show breadcrumb'
+description: 'When checked the breadcrumb will be visible on this page'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

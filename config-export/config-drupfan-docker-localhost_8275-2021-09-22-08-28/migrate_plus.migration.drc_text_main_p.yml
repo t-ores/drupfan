@@ -1,0 +1,38 @@
+uuid: 6a50973b-200b-477f-94b4-412a47654424
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_realisation_core
+_core:
+  default_config_hash: zvkm3LZq8TBwQqiLtHWlQchq4nlzTMIsYUNAY8FwVjk
+id: drc_text_main_p
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: drc_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/text_main.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  field_p_text/value:
+    plugin: token_replacer
+    source: field_p_text
+  field_p_text/format:
+    plugin: default_value
+    default_value: full_html
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: p_003
+migration_dependencies:
+  required: {  }
+  optional: {  }

@@ -1,0 +1,12 @@
+uuid: 32b614b0-3e61-495d-b29e-8570709ade49
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: KyJLXRwAQmzJh66I7NeNuZKmFD4X1Vb4WBcgyD-REC8
+id: media.paragraph_p009_image
+label: 'Paragraph p009 image (grid columns)'
+targetEntityType: media
+cache: true

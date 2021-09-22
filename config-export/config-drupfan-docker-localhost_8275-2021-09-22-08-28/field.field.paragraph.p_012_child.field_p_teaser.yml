@@ -1,0 +1,21 @@
+uuid: a67af9e7-1ed3-4e46-952b-8eb0327ec21b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_teaser
+    - paragraphs.paragraphs_type.p_012_child
+_core:
+  default_config_hash: ufzPtyEQrdZs682FKRaqbZRi6pAo3ki9_PiGEkjqNa8
+id: paragraph.p_012_child.field_p_teaser
+field_name: field_p_teaser
+entity_type: paragraph
+bundle: p_012_child
+label: 'Guide teaser'
+description: 'Enter the teaser text for this guidance box.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

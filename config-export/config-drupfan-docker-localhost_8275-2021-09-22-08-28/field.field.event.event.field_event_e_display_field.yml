@@ -1,0 +1,23 @@
+uuid: 4adb9cfe-198a-4113-aa3c-95d98676a8c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.event.field_event_e_display_field
+  module:
+    - rocketship_core
+    - rocketship_event_core
+_core:
+  default_config_hash: m500NRQ-sENBnSyw6IU1e7vkZFeb96eTsA5fv8lU8vY
+id: event.event.field_event_e_display_field
+field_name: field_event_e_display_field
+entity_type: event
+bundle: event
+label: 'Display Field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

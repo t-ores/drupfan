@@ -1,0 +1,39 @@
+uuid: 288ae478-22a1-43f2-a65a-3ba8f0769eee
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_paragraphs_content
+_core:
+  default_config_hash: _dCES9pn2oG4ftuJJuCtJG4H5BguA3I6EnN3D_4abS8
+id: p_010_child
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: paragraph_demo_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/p_010_child.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  field_p_media_image:
+    plugin: migration_lookup
+    migration: paragraph_media_images
+    source: field_p_media_image
+  field_p_link/title: field_p_link_title
+  field_p_link/uri: field_p_link_uri
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: p_010_child
+migration_dependencies:
+  required:
+    - paragraph_images
+  optional: {  }

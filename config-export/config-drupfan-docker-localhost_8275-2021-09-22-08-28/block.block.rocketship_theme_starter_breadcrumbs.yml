@@ -1,0 +1,38 @@
+uuid: fc500365-0965-4fe5-921b-1ed98c416b80
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - system
+  theme:
+    - rocketship_theme_starter
+_core:
+  default_config_hash: di9H3w-J2Eu0jGxj2wofNYtFiQABS6LC5md9beWLmuM
+id: rocketship_theme_starter_breadcrumbs
+theme: rocketship_theme_starter
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+      event: event
+      job: job
+      news: news
+      office: office
+      page: page
+      product: product
+      realisation: realisation
+      service: service
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

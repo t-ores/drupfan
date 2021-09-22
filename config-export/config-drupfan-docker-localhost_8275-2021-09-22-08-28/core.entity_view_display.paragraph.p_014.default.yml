@@ -1,0 +1,55 @@
+uuid: 4f9ef636-dfce-48a7-bffa-21ea9d7777e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.p_014.field_p_bg_color
+    - field.field.paragraph.p_014.field_p_related_items
+    - field.field.paragraph.p_014.field_p_subtitle
+    - field.field.paragraph.p_014.field_p_teaser
+    - field.field.paragraph.p_014.field_p_title
+    - paragraphs.paragraphs_type.p_014
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: CwQnvia_RCDv91RqmuHRUv5d5H3yfBEC9qKQ_f8wt_Q
+id: paragraph.p_014.default
+targetEntityType: paragraph
+bundle: p_014
+mode: default
+content:
+  field_p_related_items:
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: related_paragraph
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_p_subtitle:
+    weight: 1
+    label: hidden
+    settings:
+      header: h3
+    third_party_settings: {  }
+    type: header_text_field_formatter
+    region: content
+  field_p_teaser:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_p_title:
+    weight: 0
+    label: hidden
+    settings:
+      header: h2
+    third_party_settings: {  }
+    type: header_text_field_formatter
+    region: content
+hidden:
+  field_p_bg_color: true
+  search_api_excerpt: true

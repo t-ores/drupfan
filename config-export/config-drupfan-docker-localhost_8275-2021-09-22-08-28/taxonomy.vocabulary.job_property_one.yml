@@ -1,0 +1,10 @@
+uuid: 54d7f292-deb9-41ad-b2fe-83b478d5d629
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QEI9iG0K2gv342gXkrPduurURtIpEavtYdiQTOj75CM
+name: 'Job Property One'
+vid: job_property_one
+description: ''
+weight: 0

@@ -1,0 +1,23 @@
+uuid: cbaacae4-c9c2-4b0c-b578-efe5c50f3750
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_usp
+    - field.storage.block_content.field_block_usp_item
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: NPsF2dv5M07SpEAwMb3mx7_7OBqMTtb3YlLK_ToBN8s
+id: block_content.block_usp.field_block_usp_item
+field_name: field_block_usp_item
+entity_type: block_content
+bundle: block_usp
+label: 'USP Item'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: title_description_field

@@ -1,0 +1,10 @@
+uuid: cdef29e8-edfd-4501-b049-5492d951ea86
+langcode: und
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DHtbKoX89Bh0v7csu7gJCSPQWnb4Ek08nxtPw-8L5Ek
+name: 'Blog tags'
+vid: blog_tags
+description: ''
+weight: 0

@@ -1,0 +1,25 @@
+uuid: 92c8438c-0a22-4ff0-87c0-b0d7e7f12ef0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_show_breadcrumb
+    - paragraphs.paragraphs_type.simple_header
+_core:
+  default_config_hash: XenYDrcixAmUVu2pyM7kiv9cuqTCRn73bxuuhI5K9lY
+id: paragraph.simple_header.field_show_breadcrumb
+field_name: field_show_breadcrumb
+entity_type: paragraph
+bundle: simple_header
+label: 'Show breadcrumb'
+description: 'When checked the breadcrumb will be visible on this page'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

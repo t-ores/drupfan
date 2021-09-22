@@ -1,0 +1,20 @@
+uuid: a87cf287-bc92-44f4-af95-6333aa4b626b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: MU5MoSXtHx8zBVtlCDyMR56NUQzWyDUnLBYsqSPXtGQ
+id: node.field_office_email
+field_name: field_office_email
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

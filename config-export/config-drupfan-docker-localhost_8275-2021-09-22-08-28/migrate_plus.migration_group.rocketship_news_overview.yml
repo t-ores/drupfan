@@ -1,0 +1,12 @@
+uuid: 0d3f1b97-a051-41fa-839b-dd4b10ec2d6e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: u45Ga12YoYNbPFUAHkWk4Xeyc2Xdzun8furvsDSQd64
+id: rocketship_news_overview
+label: 'Rocketship News Overview'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

@@ -1,0 +1,25 @@
+uuid: 81ed29ae-a68b-4d2a-9767-ae6d16b223a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_contact_us_button
+    - node.type.office
+_core:
+  default_config_hash: 1kPuDBBCRSBJwkVXDOBn6e3YGXyZCL6t4cKLDoRPMq0
+id: node.office.field_show_contact_us_button
+field_name: field_show_contact_us_button
+entity_type: node
+bundle: office
+label: 'Show "Contact us" button'
+description: 'Check this box to show the scroll-to button to the contact form itself.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

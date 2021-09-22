@@ -1,0 +1,28 @@
+uuid: 0ea12179-cfb4-4778-91b8-961b4d99621e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.content
+    - field.field.block_content.content.field_paragraphs
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: y8J89a2J5jdOFhiuAv8nWqxpNN_DwKmnW8h8bTdXU1Y
+id: block_content.content.default
+targetEntityType: block_content
+bundle: content
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

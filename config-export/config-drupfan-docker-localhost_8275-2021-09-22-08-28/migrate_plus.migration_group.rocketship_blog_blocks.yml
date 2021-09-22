@@ -1,0 +1,10 @@
+uuid: d4941fe0-ee31-42a2-ac16-457073788c61
+langcode: en
+status: true
+dependencies: {  }
+id: rocketship_blog_blocks
+label: rocketship_blog_blocks
+description: ''
+source_type: null
+module: null
+shared_configuration: null

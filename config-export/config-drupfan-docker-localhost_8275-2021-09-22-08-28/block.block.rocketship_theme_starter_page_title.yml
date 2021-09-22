@@ -1,0 +1,37 @@
+uuid: a619006a-1845-4ace-825e-52704ff481dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+  theme:
+    - rocketship_theme_starter
+_core:
+  default_config_hash: 8E3XgLMgVIDwn7rj5Ghm1NbuFGSe1ixsLEgdWy2YEuc
+id: rocketship_theme_starter_page_title
+theme: rocketship_theme_starter
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+      event: event
+      job: job
+      news: news
+      office: office
+      page: page
+      product: product
+      realisation: realisation
+      service: service
+    negate: true
+    context_mapping:
+      node: '@node.node_route_context:node'

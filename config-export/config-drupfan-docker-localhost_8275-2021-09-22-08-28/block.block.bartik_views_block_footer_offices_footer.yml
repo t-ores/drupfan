@@ -1,0 +1,24 @@
+uuid: 9325af34-6766-4908-a91e-7ffebeb97b95
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer_offices
+  module:
+    - views
+  theme:
+    - bartik
+id: bartik_views_block_footer_offices_footer
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'views_block:footer_offices-footer'
+settings:
+  id: 'views_block:footer_offices-footer'
+  label: Contact
+  provider: views
+  label_display: visible
+  views_label: Contact
+  items_per_page: '0'
+visibility: {  }

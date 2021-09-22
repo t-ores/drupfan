@@ -1,0 +1,21 @@
+uuid: f02fa030-5dca-4c94-a4ef-228b3b8e30e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - telephone
+_core:
+  default_config_hash: FnVhaXJqUFygtGZD9bPFOCjFAk7KE23iP0ZYXQTqZRQ
+id: node.field_office_fax
+field_name: field_office_fax
+entity_type: node
+type: telephone
+settings: {  }
+module: telephone
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

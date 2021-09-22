@@ -1,0 +1,12 @@
+uuid: ca016211-07ad-4362-b419-ebcfe788e53e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ouu_O105Mr6ixp1eTfG8Z8ENHshnfVicMUoStCeUN5c
+id: rocketship_job_overview
+label: 'Rocketship Jobs Overview'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

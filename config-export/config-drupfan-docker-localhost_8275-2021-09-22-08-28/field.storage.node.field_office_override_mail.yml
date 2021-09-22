@@ -1,0 +1,20 @@
+uuid: 95101a43-1d4c-4bca-8be9-c5b89fda22fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: mLmAR2u6fB3XaGnXJoFWDPdSH-CpDp2_4y88YjP89I0
+id: node.field_office_override_mail
+field_name: field_office_override_mail
+entity_type: node
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

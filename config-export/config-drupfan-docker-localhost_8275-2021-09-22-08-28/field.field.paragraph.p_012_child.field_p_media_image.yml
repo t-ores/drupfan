@@ -1,0 +1,30 @@
+uuid: ee6db248-076f-4c98-b764-c034d6a5ad16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_media_image
+    - media.type.image
+    - paragraphs.paragraphs_type.p_012_child
+_core:
+  default_config_hash: R-PymBV1a6L0M2ck6AkxWFDRrPnz5YF3ysdkUMpYAX8
+id: paragraph.p_012_child.field_p_media_image
+field_name: field_p_media_image
+entity_type: paragraph
+bundle: p_012_child
+label: 'Guide image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 35a7e219-6144-4be7-8c77-8133bfe77ef2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: HJ8mdY3hTVPHHj2yHCMVHkOlLy0M2EIYLNAXmRtDThE
+id: block_content.field_social_link_instagram
+field_name: field_social_link_instagram
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

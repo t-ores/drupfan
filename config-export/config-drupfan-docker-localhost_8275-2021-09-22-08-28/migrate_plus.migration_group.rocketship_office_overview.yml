@@ -1,0 +1,12 @@
+uuid: d2a37a1d-baee-40e9-8e19-67202013e3ec
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QkPv14wCk3aU4N9hH1FcmhkT8FqUS-0SpXgGrK8KTnM
+id: rocketship_office_overview
+label: 'Rocketship Contact Offices Overview'
+description: 'Contains page migration to be used as an overview'
+source_type: ''
+module: null
+shared_configuration: null

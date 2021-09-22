@@ -1,0 +1,22 @@
+uuid: 5cc149fb-7ec9-4e61-bb3c-3b2948ab2479
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: csTTHvy2-M-aMx0Rj7rvPnahrOQBUqcNzBnpO-wqzKM
+id: event.field_event_price
+field_name: field_event_price
+entity_type: event
+type: decimal
+settings:
+  precision: 20
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: 3d4b59ae-e193-4eb9-bc95-89b34e3834aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.footer_offices
+  module:
+    - views
+  theme:
+    - rocketship_theme_starter
+id: rocketship_theme_starter_views_block_footer_offices_footer
+theme: rocketship_theme_starter
+region: hidden
+weight: -6
+provider: null
+plugin: 'views_block:footer_offices-footer'
+settings:
+  id: 'views_block:footer_offices-footer'
+  label: Contact
+  provider: views
+  label_display: visible
+  views_label: Contact
+  items_per_page: '0'
+visibility: {  }

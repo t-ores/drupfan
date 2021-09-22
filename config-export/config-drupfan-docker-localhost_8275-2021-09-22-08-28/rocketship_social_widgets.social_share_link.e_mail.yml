@@ -1,0 +1,12 @@
+uuid: ebfc8ff2-b63b-4070-9e35-1637c891e9ad
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uANHHEoRWmQBzBMpJ35DZDPoriyQYwBJah3E72mItmw
+id: e_mail
+label: E-mail
+sharer_url: 'mailto:?&subject=[current-page:title]&body=[current-page:url:absolute]'
+onclick: ''
+weight: -6
+target: _blank

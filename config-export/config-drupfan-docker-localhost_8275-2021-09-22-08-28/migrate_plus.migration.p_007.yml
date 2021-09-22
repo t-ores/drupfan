@@ -1,0 +1,66 @@
+uuid: 0b65106e-38a1-474d-a20e-9b7bd7b5d1ed
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rocketship_paragraphs_content
+_core:
+  default_config_hash: Msol9iTtHzMu4-3e3N7ngB4mt3BzGVdY0TJPZz1WKKY
+id: p_007
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: paragraph_demo_content
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/p_007.csv
+  header_offset: 0
+  ids:
+    - id
+process:
+  langcode:
+    plugin: callback
+    callable: rocketship_core_get_default_content_default_language
+  field_p_bg_color: field_p_bg_color
+  field_p_button:
+    -
+      plugin: explode
+      source: field_p_button
+      delimiter: '|'
+    -
+      plugin: explode
+      delimiter: '**'
+    -
+      plugin: sub_process
+      process:
+        title: '0'
+        uri: '1'
+  field_p_teaser: field_p_teaser
+  field_p_title: field_p_title
+  field_p_subtitle: field_p_subtitle
+  field_p_007_view_mode: field_p_007_view_mode
+  field_p_007_children:
+    -
+      plugin: explode
+      source: field_p_007_children
+      delimiter: '|'
+    -
+      plugin: migration_lookup
+      migration:
+        - p_007_child
+      no_stub: true
+    -
+      plugin: sub_process
+      process:
+        target_id: '0'
+        target_revision_id: '1'
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: p_007
+migration_dependencies:
+  required:
+    - p_007_child
+  optional: {  }

@@ -1,0 +1,14 @@
+ignored_config_entities:
+  - 'webform.*'
+  - simple_sitemap.settings
+  - 'system.action.webform_*'
+  - simple_sitemap.custom_links.default
+  - ~webform.webform.event_subscription
+  - ~webform.webform.apply_for_this_job
+  - simple_recaptcha.config
+  - ~webform.webform.office_contact
+  - 'google_tag*'
+  - geofield_map.settings
+  - geocoder.settings
+_core:
+  default_config_hash: 4BCXA-BFiH0rEy-5SSJLZWY-ypVqz2NCDoH_Uh6pGYE

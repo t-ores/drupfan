@@ -1,0 +1,12 @@
+uuid: 7fc05c47-cc67-4512-b5e8-4b8c2988ad07
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Nn5PFPzdXU-__wW9oVFZgfONKTy9Q1BkVDJlQwQ8O5A
+id: dec_content
+label: 'Event Core Demo Content'
+description: 'Migrates core event content'
+source_type: ''
+module: null
+shared_configuration: null

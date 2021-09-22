@@ -1,0 +1,12 @@
+uuid: ceb85d1c-bf9e-461c-bb6a-18c9c71d7eb6
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_event_core
+_core:
+  default_config_hash: D0G9_gTtaexkLOnMdg1MC91h_0qlwSQXyu3S9sRPD4E
+id: event.full
+label: 'Full content'
+targetEntityType: event
+cache: true
